@@ -1,0 +1,90 @@
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+/* Estilos para los artículos */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    float: left;
+    width: calc(33.33% - 20px); /* Calculamos el ancho para tres columnas */
+    box-sizing: border-box;
+}
+
+/* Estilos para el texto dentro de los artículos */
+article h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #333;
+}
+
+article p {
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Estilos para las imágenes con clase */
+.imagen-personalizada {
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilos para el video dentro del artículo */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 para video */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #000000;
+    color: #16FF00;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #16FF00;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000;
+    color: #16FF00;
+    text-align: center;
+    padding: 10px;
+}
